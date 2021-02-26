@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.main-wrapper {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.characters-list {
+  background-color: #fff;
+  max-width: 36ch;
+  width: 100%;
+}
+
+.character-modal-body {
+  background-color: #fff;
+  border: 2px solid #000;
+  left: 50%;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.d-flex {
+  display: flex;
+}
